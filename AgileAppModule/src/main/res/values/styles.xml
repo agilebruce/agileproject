@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="IssueAssigneeStyle">
+        <item name="android:textColor">@color/theme_black</item>
+        <item name="android:textSize">@dimen/issue_creator_textsize</item>
+        <item name="android:background">@drawable/committer_tag</item>
+    </style>
+    <style name="IssueDateStyle">
+        <item name="android:textColor">@color/theme_black</item>
+        <item name="android:textSize">@dimen/issue_date_textsize</item>
+        <item name="android:shadowColor">@color/theme_navigation_drawer_background</item>
+    </style>
+    <style name="BranchNameStyle">
+		<item name="android:textColor">@color/theme_black</item>
+		<item name="android:textSize">@dimen/repo_name_textsize</item>
+		<item name="android:shadowColor">@color/theme_navigation_drawer_background</item>
+
+	</style>
+	<style name="BranchSHAStyle">
+		<item name="android:textColor">@color/theme_black</item>
+		<item name="android:textSize">@dimen/repo_sha_textsize</item>
+		<item name="android:shadowColor">@color/theme_navigation_drawer_background</item>
+
+	</style>
+	<style name="NavigationDrawerItemStyle">
+		<item name="android:textSize">@dimen/navigation_drawer_item_text_size</item>
+		<item name="android:gravity">start</item>
+		<item name="android:textColor">@color/navigation_drawer_item_text</item>
+	</style>
+	<style name="LoadingTextStyle">
+		<item name="android:textColor">@color/theme_black</item>
+		<item name="android:textSize">@dimen/loading_text_size</item>
+		<item name="android:shadowColor">@color/theme_dark_blue</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">1</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="RepoSelectorSpinnerDropdownTextStyle">
+		<item name="android:textColor">@color/theme_black</item>
+		<item name="android:textSize">@dimen/repo_name_textsize</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="RepoSelectorSpinnerSelectedItemTextStyle">
+		<item name="android:textColor">@color/theme_black</item>
+		<item name="android:textSize">@dimen/repo_name_textsize</item>
+		<item name="android:shadowColor">@color/theme_navigation_drawer_background</item>
+		<item name="android:shadowDx">2</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="IndeterminateFancyProgressBarStyle" parent="SmoothProgressBar">
+		<item name="spb_color">@color/theme_black</item>
+		<item name="spb_progressiveStart_activated">true</item>
+	</style>
+	<style name="ChronometerStyle">
+		<item name="android:textColor">@color/theme_black</item>
+		<item name="android:textSize">@dimen/chronometer_text_size</item>
+		<item name="android:shadowColor">@color/theme_navigation_drawer_background</item>
+		<item name="android:shadowDx">2</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<dimen name="chronometer_text_size">90sp</dimen>
+</resources>

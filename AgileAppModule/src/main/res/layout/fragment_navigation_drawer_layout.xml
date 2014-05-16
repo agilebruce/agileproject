@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/theme_navigation_drawer_background"
+	android:orientation="vertical">
+	<ListView
+		android:id="@+id/navigation_drawer_list_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:choiceMode="singleChoice"/>
+	<Spinner
+		android:id="@+id/repo_selector_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="@dimen/repo_selector_spinner_to_bottom_margin"/>
+    <TextView
+        android:id="@+id/selected_branch"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#999"
+        android:text="@string/selected_branch"
+        style="@style/BranchNameStyle"/>
+        />
+
+</RelativeLayout>

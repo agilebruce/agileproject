@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:paddingLeft="@dimen/splash_progress_bar_horizontal_margin"
+              android:paddingRight="@dimen/splash_progress_bar_horizontal_margin"
+              android:paddingTop="@dimen/splash_progress_bar_vertical_margin"
+              tools:context="org.arnolds.agileappproject.agileappmodule.ui.frags.IndefiniteFancyProgressFragment">
+	<TextView
+		android:id="@+id/fancy_progress_text_view"
+		style="@style/LoadingTextStyle"
+		android:text="@string/loading"
+		android:layout_gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+		android:id="@+id/fancy_progress_bar_view"
+		android:layout_gravity="center"
+		style="@style/IndeterminateFancyProgressBarStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:indeterminate="true"/>
+</LinearLayout>
